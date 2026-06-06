@@ -1,0 +1,16 @@
+import org.openqa.selenium.Webdriver;
+import org.openqa.selenium.chrome.chromedriver;
+
+public class Googletest{
+
+Static void main(String[] args) throws InterrupetedException {
+
+ Webdriver driver = new ChromeDriver();
+
+ driver.get("https://www.google.com/");
+
+ driver.manage().window().maximize();
+ driver.quit();
+
+
+ }
