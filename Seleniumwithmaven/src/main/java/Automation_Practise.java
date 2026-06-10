@@ -27,7 +27,7 @@ public class Automation_Practise {
         //Locator for New user signup
         driver.findElement(By.xpath("//input[@data-qa='signup-name']")).sendKeys("Rahul");
 
-        driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys("mosami18@gmail.com");
+        driver.findElement(By.xpath("//input[@data-qa='signup-email']")).sendKeys("mosami20@gmail.com");
         driver.findElement(By.xpath("//button[@data-qa='signup-button']")).click();
         System.out.println("New User Signin done");
 
